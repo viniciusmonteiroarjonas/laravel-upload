@@ -62,8 +62,8 @@ class ClienteController extends Controller
                     if (!empty($row)) {
                         $dataArray[] =
                             [
-                                'nome' => $row['nome_usuario'],
-                                'sobrenome' => $row['sobrenome_usuario'],
+                                'nome' => $row['nome'],
+                                'sobrenome' => $row['sobrenome'],
                             ];
                     }
                 }
